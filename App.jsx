@@ -20,8 +20,7 @@ function RouteHandler() {
 
   return (
     <Routes>
-      <Route path="/" element={<Tourist />} />
-      <Route path="/Den" element={<Purist />} />
+      <Route path="/" element={<Purist />} />
     </Routes>
   );
 }
